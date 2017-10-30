@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: #000;
+}
+
+
+/* NAVBAR */
+nav{
+    height: 70px;
+    background-color: rgb(0,0,0);
+    border-bottom: 2px solid #00a5ed;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    padding-top: 14px;
+    font-family: BebasNeue_Bold;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    padding-left: 10px;
+}
+.nav-items{
+    padding-top: 1px;
+}
+.nav-items>ul{
+    list-style-type: none;
+}
+.nav-items>ul>li{
+    display: inline;
+    float: left;
+}
+.nav-items>ul>li>a{
+    display: block;
+    padding: 20px;
+    font-family: BebasNeue_Light;
+    font-size: 23px;
+    color: #ffffff;
+}
+.nav-items>ul>li>a:hover{
+    text-decoration-color: #00a5ed;
+    -webkit-text-decoration-color: #00a5ed;
+}
+.nav-set{
+    font-size: 25px;
+}
+.nav-set>div{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.dropdown-card__call{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: BebasNeue_Bold;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+/* !!!NAVBAR!!! */
+
+/* FOOTER */
+footer{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 40px;
+}
+.footer-left>a,.footer-right>a{
+    margin: auto;
+    padding: 0 15px;
+    color: #ffffff;
+}
+.footer-left>a:hover,.footer-right>a:hover{
+    text-decoration: none;
+    color: #00a5ed;
+}
+.footer-center{
+    font-family: BebasNeue_Regular;
+    font-size: 15px;
+}
+.footer-tab{
+    margin: auto;
+    text-align: center;
+}
+/* !!!FOOTER!!! */
+
+/* CONTAINER */
+.container{
+    margin: auto;
+    max-width: 800px;
+}
+/* !!!CONTAINER!!! */
+
+/* WORK */
+.work-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+/* !!!WORK!!! */
